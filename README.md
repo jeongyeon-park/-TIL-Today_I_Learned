@@ -2,9 +2,22 @@
 
 
 ## Angular
+- 새 프로젝트 생성 : ng new projectName
+- 새 컴포넌트 추가 : ng g component componentName
+- 프로젝트 실행 : ng serve
+
+
 [01. Module and Component](./Angular/01.Module%20and%20Component.md)
 
 [02. Component](./Angular/02.Component.md)
+
+[03. Component And Module 자세히](./Angular/03.ComponentAndModule%EC%9E%90%EC%84%B8%ED%9E%88.md)
+
+[04. Component 이해 _ 간단한기능구현 -1](./Angular/04.Component%EC%9D%B4%ED%95%B4_%EA%B0%84%EB%8B%A8%ED%95%9C%EA%B8%B0%EB%8A%A5%EA%B5%AC%ED%98%84.md)
+
+[05. Component 이해 _ 간단한 기능구현 -2](./Angular/05.Component%EC%9D%B4%ED%95%B4_%EA%B0%84%EB%8B%A8%ED%95%9C%EA%B8%B0%EB%8A%A5%EA%B5%AC%ED%98%842.md)
+
+[06. SelectorAndDirective](./Angular/06.%20SelectorAndDirective.md)
 
 
 ## TypeScript
