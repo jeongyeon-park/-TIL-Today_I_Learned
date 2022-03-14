@@ -19,6 +19,12 @@
 
 [06. SelectorAndDirective](./Angular/06.%20SelectorAndDirective.md)
 
+[07. (FormCobtrol) 데이터 바인딩, 반응형 모듈](./Angular/07.%20(FormControl)%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B0%94%EC%9D%B8%EB%94%A9%2C%EB%B0%98%EC%9D%91%ED%98%95%20%EB%AA%A8%EB%93%88.md)
+
+[08. 데이터 바인딩 심화](./Angular/08.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B0%94%EC%9D%B8%EB%94%A9%20%EC%8B%AC%ED%99%94.md)
+
+[09. 데이터 공유](./Angular/09.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%B5%EC%9C%A0(Share%2C%20Inject).md)
+
 
 ## TypeScript
 - terminal 에 tsc -w 치면 ts파일이 js로 변환
