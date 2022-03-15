@@ -25,9 +25,13 @@
 
 [09. 데이터 공유](./Angular/09.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%B5%EC%9C%A0(Share%2C%20Inject).md)
 
+[10. Observable](./Angular/10.%20Observable.md)
+
+[11. 라우팅](./Angular/11.%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)
 
 ## TypeScript
 - terminal 에 tsc -w 치면 ts파일이 js로 변환
+- ng g service [service name] 하면 서비스가 생성됨 
 
 [01.타입의 기본(Types)](./TypeScript/01.%ED%83%80%EC%9E%85%EA%B8%B0%EB%B3%B8(Types).md)
 
