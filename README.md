@@ -1,5 +1,10 @@
 # 매일 공부 한 것을 기록합니다. 🐌
 
+## Intern TIL
+인턴기간동안 매일 TIL을 씁니다 (22.03.24 ~ 23.01)
+
+[Intern TIL](./2022InternTIL/)
+
 ## BootStrap
 [BootStrap](./BootStrap/)
 
@@ -37,6 +42,7 @@
 ## TypeScript
 - terminal 에 tsc -w 치면 ts파일이 js로 변환
 - ng g service [service name] 하면 서비스가 생성됨 
+- tsc -init 하면 tsconfig.json 이 생성됨. 여기 기본 설정이 다 있고 여기서 compiler option을 설정 할 수 있다
 
 [01.타입의 기본(Types)](./TypeScript/01.%ED%83%80%EC%9E%85%EA%B8%B0%EB%B3%B8(Types).md)
 
