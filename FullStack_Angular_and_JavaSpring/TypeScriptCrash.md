@@ -189,3 +189,75 @@ tsconfig.json 파일은 compiler 옵션과 project setting 을 정의한다.
     }
 }
 ```
+
+## Parameter Properties
+
+parameter properties를 설정 해주는 short cut 이 있다. 
+properties를 정의하고 자동으로 할당한다. 
+
+## Modules 
+타입스크립트는 모듈 개념을 제공한다. 
+모듈은 class, function, variable 등을 export 할 수 있다. 
+
+```typescript
+export class Customer {}
+```
+
+해 주면 
+
+![image](https://user-images.githubusercontent.com/64348346/159767590-9bf62ce1-89e0-4ecd-b05d-46d735bb1aba.png)
+
+```typescript
+export class Customer {
+    // parameter properties shortcut
+    constructor( private _firstName: string, private _lastName: string){   
+    }
+    public get firstName(): string{
+        return this._firstName;
+    }
+    public set firstName(value : string) {
+        this._firstName = value;
+    }
+    public get lastName(): string {
+        return this._lastName;
+    }
+    public set lastName(value: string) {
+        this._lastName = value;
+    }
+}
+```
+export 해 주면 다른 파일에서 import 를 할 수 있다. 
+
+```typescript
+import { Customer } from './Customer';
+
+// Let's Create an instance
+let myCustomer = new Customer("Martin", "Kim");
+
+console.log(myCustomer.firstName);
+console.log(myCustomer.lastName);
+```
+
+class import 하니까 { Customer } 해 주기 
+
+## Inheritance 
+typescript 는 상속을 제공하며 
+공통 프로퍼티와 method를 superclass에서 정의하고 
+
+subclass 는 superclass를 상속받아 프로퍼티와 method를 추가할 수 있다.
+
+abstract class와 overriding 도 지원한다. 
+
+**타입스크립트에서는 한 클래스가 하나의 클래스만 상속 받을 수 있다.**
+**interface는 다중으로 구현할 수 있다.**
+
+![image](https://user-images.githubusercontent.com/64348346/159771105-33d52fd3-7c2a-4ba2-a2c6-699a6a6b0db7.png)
+
+
+## Super 메소드
+super() 메소드는 부모 클래스의 생성자를 호출할 때 사용된다. 
+
+자식 클래스의 인스턴스를 생성하면 해당 인스턴스에는 자식 클래스의 고유 멤버뿐만 아니라 부모 클래스의 모든 멤버까지도 포함되어있다. 
+
+
+## Abstract Classes
