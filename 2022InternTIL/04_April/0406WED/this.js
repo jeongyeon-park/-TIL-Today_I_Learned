@@ -47,13 +47,36 @@ btn.addEventListener('click', function(){
 });
 
 //ES5에서 this 설정 할 수 있는 bind method 나왓다. 
-function printThis(){
-    console.log(this);
-}
-let person1 = {
-    name: '홍길동',
+// function printThis(){
+//     console.log(this);
+// }
+// let person1 = {
+//     name: '홍길동',
+// };
+// let printThis1 = printThis.bind(person1); // 애는 함수를 반환한다. 
+// // bind로 this에 person1을 바인드 한다. 
+// // bind는 단 한번만 사용할 수 있다.
+// printThis1();
+
+// let person = {
+//     name:'정연',
+//     age: 20,
+//     hello: function(){
+//         setTimeout(()=>{
+//             console.log(this);
+//         }, 1000);
+//     },
+// };
+// person.hello();
+
+// console.log(this);
+// console.log(this===window);
+
+let person = {
+    name:'정연',
+    age: 20,
+    printThis: function(){
+        console.log(this);
+    },
 };
-let printThis1 = printThis.bind(person1); // 애는 함수를 반환한다. 
-// bind로 this에 person1을 바인드 한다. 
-// bind는 단 한번만 사용할 수 있다.
-printThis1();
+person.printThis();
